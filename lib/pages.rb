@@ -1,10 +1,11 @@
 require 'yaml'
-require 'capybara'
-require 'capybara-webkit'
+#require 'capybara'
+#require 'capybara-webkit'
 require 'yaml'
 require 'rspec'
 require 'selenium-webdriver'
-require 'parallel_tests/tasks'
+#require 'parallel_tests/tasks'
+require 'cucumber'
 
 require 'rake'
 
@@ -23,3 +24,5 @@ require File.dirname(__FILE__) + "/driver/utilities"
 include Utilities
 
 require File.dirname(__FILE__) + "/pages/google_home_page"
+require File.dirname(__FILE__) + "/pages/my_calculator"
+require File.dirname(__FILE__) + "/pages/complex_calculator"
