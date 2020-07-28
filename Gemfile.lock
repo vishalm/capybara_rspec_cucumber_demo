@@ -16,7 +16,7 @@ GEM
       json (>= 1.7.6)
     gherkin (2.11.6-x86-mingw32)
       json (>= 1.7.6)
-    json (1.7.7)
+    json (2.3.1)
     multi_json (1.7.2)
     rake (10.0.4)
     rspec (2.13.0)
